@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header h3 {
+    width: 50%;
+}
+
+header p {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#intro-section,#question-section, #initial-section, #highscore-section {
+   text-align: center;
+}
+
+.choices {
+    color:white;
+    background-color: blueviolet;
+     padding: 10px;
+     margin: 5px;
+    border-radius: 8px;
+
+}
+.choices:hover {
+    background-color: indigo;
+    color: white;
+}
